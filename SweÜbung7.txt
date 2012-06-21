@@ -47,7 +47,7 @@ Problem selbst in frage stellen
 -Die Analyse ist auch nicht so das gro?te Problem. Wie wollen wir das Ganze uberhaupt implementieren?
 -Wir haben gut ausgebildete Leute,die sich damit beschaftigen.
 -Meinen Sie wirklich,dass wir so viele Kunden gewinnen werden,wie eingeplant.
--Warum sollte das nicht der Fall sein?
+-Warum sollte das nicht der  sein?
 
 
 
