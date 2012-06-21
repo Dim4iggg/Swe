@@ -1,0 +1,55 @@
+ Observer
+Ziel ist es, das beobachtende Objekt uber Anderungen im beobachteten Objekt (auch Subjekt genannt) zu informieren.
+
+http://de.wikibooks.org/wiki/Muster:_Observer
+
+Wenn Instanzen verschiedenster Klassen uber Anderungen informiert werden sollen, ist das Beobachtermuster die richtige Wahl.
+Von einem Einsatz sollte abgesehen werden, wenn lediglich zwei Instanzen miteinander kommunizieren mussen, da der Overhead fur die Implementierung des Beobachter-Musters zu gro? ware.
+
+ mehrere Klassen beteiligt
+ Beobachter-Interface 
+ seine Erben 
+sowie der Beobachtete (Subjekt). 
+Das Subjekt muss Methoden bereitstellen
+Beobachter registriert 
+bereits registrierte Beobachter entfernt werden 
+ registrierten Beobachter uber Anderungen zu informieren benachrichtigen() 
+
+Die Beobachter haben eine Methode uber die sie uber Anderungen informiert werden 
+
+Tritt  eine Zustandsanderung  auf, wird benachrichtigen()-Methode die aktualisiere()-Methoden aller registrierten Beobachter aufrufen. 
+ Der neue Zustand des Beobachteten wird erfragt (subjekt.gibZustand() in obigem UML-Diagram) 
+
+2)versuchen in die Vorstellungen des Gegenubers einzufuehlen. 
+Den Teilnehmer ernstnehmen
+Unnotigen "Roman unterbrechen ihn an gunstiger Stelle
+Eine Gegenfrage wenn keine losung direkt einfallt,moglichen losungsansatz finden
+Nach den Ursachen seines Verhaltens fragen(Einzelgesprach),deutlich machen,dass sein verhalten nicht toleriert wird.mit versetzung drohen.
+
+3)
+
+Design und implementierung wird immer wieder diskutiert--- mogl Losung Prototyp/teillosungen/meilensteine erstellen
+Analyse hoch spekulativ -----------------------------------Analyse regelma?ig pflegen und aktualisieren
+
+keine Fortschritte verantwortung auf den Quertreiber ubertragen
+Zeitverzogerung
+
+
+
+Problem selbst in frage stellen
+
+
+
+-Wir haben uns das ziel gesetzt eine App fur die Mensa zu schreiben,machen dabei aber keine wirkliche Fortschritte.
+- Du hast recht,dass es bei uns zu einer Zeitverzogerung kommt,dies haben wir aber schon in der Analysephase miteinberechnet,sodass wir im gro?en und ganzen die festgesetzte Zeit nicht uberschreiten werden.
+-Wir haben in der Analyse noch viele andere Faktoren nicht mit einbezogen,die uns viel Zeit einnehmen werden
+-Gut,deine Aufgabe wird es sein die Faktoren mir schriftlich mitzuteilen,die wir nicht dabei haben.
+-Die Analyse ist auch nicht so das gro?te Problem. Wie wollen wir das Ganze uberhaupt implementieren?
+-Wir haben gut ausgebildete Leute,die sich damit beschaftigen.
+-Meinen Sie wirklich,dass wir so viele Kunden gewinnen werden,wie eingeplant.
+-Warum sollte das nicht der Fall sein?
+
+
+
+
+
